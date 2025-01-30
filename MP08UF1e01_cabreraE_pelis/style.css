@@ -1,0 +1,63 @@
+body{
+    font-family: Helvetica, sans-serif;
+    background: #222;
+}
+
+.barra {
+    background-color: black;
+    width: 1550px;
+    height: 40px;
+}
+.subtitol {
+    width: 268px;
+    color: #ccc;
+    font-size: 14px;
+    left: 50px;
+}
+.titol { 
+    background-color: #222;
+    width: 1550px;
+    height: 40px;
+
+}
+
+.text {
+    width: 268px;
+    color: white;
+    font-size: 20px;
+}
+
+img {
+    width: 175px;
+    height: 275px;
+    top: 600px;
+}
+
+.barra2 {
+    background-color: black;
+    width: 1550px;
+    height: 40px;
+}
+
+.body2 {
+}
+.barra3 {
+    background-color: black;
+    width: 1550px;
+    height: 40px;
+}
+.body3{
+}
+.barra4 {
+    background-color: black;
+    width: 1550px;
+    height: 40px;
+}
+.text4 {
+    width: 268px;
+    color: white;
+    font-size: 20px;
+}
+
+
+
