@@ -54,7 +54,8 @@ img {
     background-size: 100%;
     background-repeat: no-repeat;
 
-    opacity: 80%;
+    opacity: 100%;
+    float: left;
 }
 
 .cercle:first-child::after {
@@ -67,14 +68,14 @@ img {
     color: white;
     font-size: 32px;
     border: solid 5px white;
-    position: absolute;
-    top: 270px;
-    left: 115px;
+    position: relative;
+    top: 55px;
+    left: 60px;
 }
 
 
 .cercle:hover {
-    opacity: 100%;
+    opacity: 80%;
 }
 
 /* _________________elements article_________________*/
@@ -82,6 +83,9 @@ img {
 .fotoautor {
     width: 45px;
     height: 35px;
+    border-radius: 50%;
+    background-image: url(../img/perfil.jpg);
+    background-size: 100%;
     background-repeat: no-repeat;
     padding: 10px;
     margin: 10px;
@@ -92,7 +96,7 @@ img {
 
 .autor {
     width: 268px;
-    height: 50px;
+    height: 40px;
     line-height: 40px;
     font-weight: 700;
     font-size: 22px;
@@ -126,7 +130,7 @@ img {
     float: left;
 }
 
-.like {
+.likeee {
     height: 40px;
     width: 40px;
     float: left;
@@ -193,3 +197,42 @@ img {
     margin: 50px 0 0 0;
     display: inline-block;
 }
+
+input {
+    visibility:hidden;
+  }
+  
+  #agradador {
+    margin: 2rem 0 0 0;
+    width: 1rem;
+    height: 1rem;
+    position: relative;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+  }
+  
+  #agradador label {
+    width: 40px;
+    height: 40px;
+    visibility: visible;
+    display: block;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .5s ease;
+    cursor: pointer;
+    opacity: 0;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/8/86/A_perfect_SVG_heart.svg);
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    
+  }
+  
+  #agradador input[type=checkbox]:checked+label {
+    opacity:1;
+  }
+  
+  
