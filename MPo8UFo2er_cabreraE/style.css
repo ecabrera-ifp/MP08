@@ -1,0 +1,167 @@
+body{
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  #cap{
+    max-width: auto;
+    height: 589px;
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    }
+
+    h1 {
+        padding-top: 100px;
+        text-align: center;
+        position: absolute;
+        display: block;
+        top: -3%;
+        left: 50%;
+        color: black;
+        transform: translate(-50%, -50%);
+        text-shadow: 1px 1px 2px grey;
+        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        de
+    }
+
+
+  #titulo div{
+    top: auto;
+    width:  482px ;
+    height: 50px;
+    background-color: rgb(255, 242, 0);
+  }
+  
+  
+  #galeria{
+    width: auto;
+    height: 780px;
+    background-color: cyan;
+    display: flex;
+    flex-wrap:wrap;
+    align-content: center;
+    justify-content: center; 
+  }
+  
+  .cuadros{
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    margin-top: -20px;
+    margin-bottom: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .cuadros .cu1 {
+    background:url(img/small/small_back.jpg);
+    top: 20px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 170px;
+    width: 250px;
+   
+  }
+  .cuadros .cu2 {
+    background:url(img/small/small_bean.jpg);
+    top: 20px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 170px;
+    width: 250px;
+  }
+
+  .cuadros .cu3 {
+    background:url(img/small/small_bond.jpg);
+    top: 20px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 170px;
+    width: 250px;
+  }
+  .cuadros .cu4 {
+    background:url(img/small/small_break.jpg);
+    top: 20px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 170px;
+    width: 250px;
+  }
+
+  .cuadros .cu5 {
+    background:url(img/small/small_ghost.jpg);
+    top: 20px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 170px;
+    width: 250px;
+  }
+  .cuadros .cu6 {
+    background:url(img/small/small_pulp.jpg);
+    top: 20px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 170px;
+    width: 250px;
+  }
+  .cuadros .cu7 {
+    background:url(img/small/small_rider.jpg);
+    top: 20px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 170px;
+    width: 250px;
+  }
+  .cuadros .cu8 {
+    background:url(img/small/small_taxi.jpg);
+    top: 20px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 170px;
+    width: 250px;
+  }
+  .cuadros .cu9 {
+    background:url(img/small/small_team.jpg);
+    top: 20px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 170px;
+    width: 250px;
+  }
+
+  #peu{
+    width: auto;
+    height: 220px;
+    background-color: rgb(136, 255, 0);
+
+  }
+
+  #peu {
+    background: url(img/logo_carsandfilms.png);
+    background-repeat: no-repeat;
+    background-position: center;
+ 
+    
+  }
+  
+  
+  
+    
+    
+    
+    
